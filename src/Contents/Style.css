@@ -1,5 +1,17 @@
+/* Main Style */
+
+
+
+
+
+
+
+
+
+
+
+/* Home Style */
 .Main_Home {
-    align-items: center;
     flex: 1;
     width: 1200px;
     /* border: 2px solid black; */
@@ -9,17 +21,23 @@
     padding: 24px;
 }
 
-.TETE {
+.Main_Title {
     /* 좌우 중앙 정렬 */
     /* margin-top: 100px; */
     /* border: 2px solid black; */
     display: flex;
     justify-content: center;
+    padding: 16px;
 }
 
-.TETE2 {
+.Main_Title_Text {
     font-size: 24px;
     font-weight: bold;
+    color: black;
+}
+
+.Main_Text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .Image_size {
@@ -35,7 +53,7 @@
     /* 기준 */
 }
 
-.Main_Text {
+.HEADER_TITLE {
     position: absolute;
     /* 겹치게 만듦 */
     top: 110px;
@@ -65,4 +83,33 @@
     float: left;
     margin-left: 16px;
     margin-top: 16px;
+}
+
+.Gif {
+    position: absolute;
+    width: 120px;
+    top: 130px;
+    left: 480px;
+}
+
+.Profile_Text_div {
+    justify-content: center;
+    padding: 32px;
+}
+
+.Profile_Text_div2 {
+    display: flex;
+}
+
+.Profile_Text_img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-top: 16px;
+    margin-right: 16px;
+}
+
+.textText {
+    font-size: 32px;
+    font-weight: bolder;
 }
