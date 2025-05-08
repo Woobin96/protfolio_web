@@ -10,7 +10,7 @@
 
 
 
-/* Home Style */
+/* 타이틀 쪽 */
 .Main_Home {
     flex: 1;
     width: 1200px;
@@ -92,8 +92,11 @@
     left: 480px;
 }
 
+/* 경력 쪽  */
+
 .Profile_Text_div {
     justify-content: center;
+    /* display: flex; */
     padding: 32px;
 }
 
@@ -113,3 +116,25 @@
     font-size: 32px;
     font-weight: bolder;
 }
+
+.resume-container {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  
+  .resume-left, .resume-right {
+    flex: 1;
+  }
+  
+  .resume-left h3, .resume-right h3 {
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
