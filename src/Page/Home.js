@@ -18,9 +18,16 @@ function Home() {
 
             {/* 아래것은 간단한 내용 업로그 */}
 
+            <div className="TETE">
+                <p className="TETE2">
+                    {STRINGS.TITLE}
+                </p>
+            </div>
+
             <div className="Main_Home">
+
                 <p>
-                    as
+                    {STRINGS.INFO}
                 </p>
 
             </div>

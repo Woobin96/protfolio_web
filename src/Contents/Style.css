@@ -1,6 +1,25 @@
 .Main_Home {
-    text-align: center;
+    align-items: center;
     flex: 1;
+    width: 1200px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.TETE {
+    /* 좌우 중앙 정렬 */
+    /* margin-top: 100px; */
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.TETE2 {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .Image_size {
@@ -35,8 +54,9 @@
     top: 245px;
     left: 215px;
     font-weight: bold;
-    
+
 }
+
 .profile_img {
     width: 180px;
     height: 180px;
